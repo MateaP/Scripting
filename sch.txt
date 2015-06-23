@@ -1,0 +1,1 @@
+chtasks /create /sc MINUTE /tn "newTask" /tr 'C:\Users\matea\sendingEmail.cmd /mo 5
