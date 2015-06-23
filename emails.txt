@@ -1,2 +1,2 @@
-"matea@edusoft.com.mk" 
-"laze@edusoft.com.mk" 
+matea@edusoft.com.mk
+laze@edusoft.com.mk

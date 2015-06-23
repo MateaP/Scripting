@@ -1,5 +1,5 @@
 @echo OFF
-FOR /F "delims==" %%G IN ('type data.txt') DO (
+FOR /F %%G IN (emails.txt) DO (
 ::@echo %%G
-blat -body "Vo prilog ima attachment" -attach data.txt -server mail -to %%G -subject Zdravo
+blat -body "Vo prilog ima attachment" -attach data.txt -server mail -f laze@edusoft.com.mk -pu laze -ppw laze -to %%G -subject Zdravo
 )
